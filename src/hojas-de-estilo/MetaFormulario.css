@@ -1,0 +1,28 @@
+.Meta-formulario{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.Meta-input{
+    width: 350px;
+    font-size: 14px;
+    background-color: bisque;
+    padding: 13px 32px 14px 16px ;
+    border: 2px solid #126833;
+    outline: none;
+    border-radius:10px 0 0 10px;
+}
+
+.Meta-boton{
+    padding: 14px;
+    font-size: 17px;
+    font-family: Roboto ,sans-serif;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    outline: none;
+    background:#126833;
+    color: #fff;
+    text-transform: capitalize;
+}
