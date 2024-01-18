@@ -34,7 +34,7 @@ function ListadeMetas( ) {
         <MetaFormulario onSubmit={agregarMeta} />
         <div className='Meta-lista-contenedor'>
           {
-            Metas.map((Metas) =>
+            Metas.map((_Meta) =>
               <Meta
                 key={Meta.id}
                 id={Meta.id} 
